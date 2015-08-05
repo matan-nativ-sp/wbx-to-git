@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9222eaf7-04a1-4666-90fc-ee019ff47f16" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://wbx-sql:8001/EventCollector/EventCollectorService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="1af43807-6b61-4011-b931-a846f1a61d64" SourceId="1" SourceUrl="http://wbx-sql:8001/EventCollector/EventCollectorService/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="8e1ef5f1-0461-482e-bfb2-fdd69eecf02b" SourceId="1" SourceUrl="http://wbx-sql:8001/EventCollector/EventCollectorService/mex" />
+    <MetadataFile FileName="service21.xsd" MetadataType="Schema" ID="b13983bb-19e8-42c0-9301-32d9a124f2c5" SourceId="1" SourceUrl="http://wbx-sql:8001/EventCollector/EventCollectorService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

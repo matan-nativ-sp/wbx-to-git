@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="eb5c0368-c037-4247-89a7-3f01dbc5a5ea" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://wbx-sql:8000/AgentConfigurationManager/AgentConfigurationService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="7842cb99-26cd-411a-9030-527015cb1e57" SourceId="1" SourceUrl="http://wbx-sql:8000/AgentConfigurationManager/AgentConfigurationService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="e34240ea-8b17-4085-ae9f-d779a4cff976" SourceId="1" SourceUrl="http://wbx-sql:8000/AgentConfigurationManager/AgentConfigurationService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="b957e81d-1663-4a6b-8be3-938f4b8e0c07" SourceId="1" SourceUrl="http://wbx-sql:8000/AgentConfigurationManager/AgentConfigurationService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

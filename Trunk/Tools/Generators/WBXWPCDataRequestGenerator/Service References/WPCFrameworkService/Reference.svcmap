@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a2879965-7f64-479e-af7c-ee699669bb8d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://wbx-sql:8003/WPCFramework/WPCFrameworkService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WPCFrameworkService.wsdl" MetadataType="Wsdl" ID="a9d38039-aeea-4e9c-aea9-e54eeaa95d10" SourceId="1" SourceUrl="http://wbx-sql:8003/WPCFramework/WPCFrameworkService?wsdl" />
+    <MetadataFile FileName="WPCFrameworkService.xsd" MetadataType="Schema" ID="dc779c56-3536-4da8-bc5b-33359ea39910" SourceId="1" SourceUrl="http://wbx-sql:8003/WPCFramework/WPCFrameworkService?xsd=xsd0" />
+    <MetadataFile FileName="WPCFrameworkService.disco" MetadataType="Disco" ID="6c0eb1d3-84a2-46f3-9ab9-4439a5ef3a30" SourceId="1" SourceUrl="http://wbx-sql:8003/WPCFramework/WPCFrameworkService?disco" />
+    <MetadataFile FileName="WPCFrameworkService1.xsd" MetadataType="Schema" ID="6d8d77c5-1feb-4414-bb38-740b09c5be10" SourceId="1" SourceUrl="http://wbx-sql:8003/WPCFramework/WPCFrameworkService?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
